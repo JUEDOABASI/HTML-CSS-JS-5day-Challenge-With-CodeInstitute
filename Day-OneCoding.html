@@ -1,0 +1,55 @@
+<!DOCTYPE Html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewpoint" content="width=device-width"/>
+        <title> Stew Recipe </title>
+        <!--Linking the Style List-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/> <!--used for the FONTS-ICONS-->
+        <link href="Day-OneCoding.css" rel="stylesheet" type="text/css"/> <!---used for the Page Personal CSS-FILE-->
+    </head>
+    <body>
+        <!--Wrap all the code around the DIV CLASS--- and then give it a Container name, this will be used for the media QUERY-->
+        <div id="container">
+            <header>
+
+                <h1>Check below on How to make a Tea: </h1>
+                <!--Image used for the page-->
+                <img src="https://www.scribbler.com/Images/Product/Default/xlarge/LBA79.jpg" alt="A Mothers day - Tea Drinking Picture"> 
+                <!--This section explains the overview steps on how to make Tea-->
+
+                <p><strong>Tea Infuser:</strong> A tea infuser keeps any tea leaves from floating freely in your cup while you drink. Teapot or Tea Mug. 
+                    <em>A teapot</em> or tea mug is what you place the infuser in to brew tea. Tea Kettle. You will need a tea kettle to boil water. Loose Leaf Tea.  
+                </p>
+
+            </header>
+            <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()"> <!--Adding a Javascript Function for the MouseHover and MouseOut-->
+                <h2>Ingredients <i class="fa fa-coffee"></i></h2> <!--This section explains the Ingredient list of the Tea-->
+                <ul>
+                    <li>Flower</li>
+                    <li>Water</li>
+                    <li>Ginger</li>
+                    <li>Clove</li>
+                </ul>
+            </section>
+            <!--This section explains the Preparation list of the Tea-->
+            <section id="preparations" onmouseover="preparationsHover()" onmouseout="preparationsNormal()">
+                <h2>Preparation <i class="fa-regular fa-circle-check"></i></h2>
+                <ol>
+                    <li> Fill up the kettle with water</li>
+                    <li> Boil the Kettle.</li>
+                    <li>Place a teabag in your favourite mug.</li>
+                    <li> Pour boiling water into your favorite mug.</li>
+                </ol>
+            </section>
+                <!--This shows the Footer tag-->
+            <footer> 
+                <p>Copyright Me 2020</p>
+            </footer>
+        </div>
+
+        <script type="text/JavaScript" src="index.js"></script> <!--Referencing the JavaScript File, for the FONT-ICON MouseHover and MouseOut-->
+    </body>
+</html>

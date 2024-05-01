@@ -1,0 +1,85 @@
+/*---Creating a style rule on the top so as to cover all the other codes*/
+
+/* #heading{
+    font-family: Arial;
+    background-color: red;
+    color:white;
+    } */
+/* #uppercase{
+    color:white;
+    text-transform: uppercase;
+}
+.sports-history{
+    color:orange;
+}
+.computing-history{
+    color:green;
+} */
+body{
+    color: slategray;
+    background-color: antiquewhite;
+    font-family: Arial;
+    font-size: 20px;
+ 
+}
+/*This code help to re-adjust all the containers to 60%.
+After placing all the container in a div tag*/
+/*** This helps to also adjust the img as well as well as other containers that follows***/
+#container{
+    width: 60%;
+    margin:auto;
+}
+
+/*using for the h1 tag*/
+h1{
+    font-size: 200%;
+    color: white;
+    background-color:rgb(69, 63, 153);
+    text-align: center;
+    
+}
+/*Targetting the h1 and the h2*/
+h1, h2 {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+/*Targetting the img-html syntax*/
+img{
+    width: 50%;
+}
+/* 
+p{
+    color:darkslategrey;
+} */
+em{
+    font-size: 20px;
+}
+strong{
+    font-size: 20px;
+}
+footer{
+    margin-top: 50px;
+    background-color: orange;
+    color: white;
+
+}
+footer p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*This code help to re-adjust all the containers using a @media Query.
+This will adjust when the user uses a phone to view the page. This only applys
+when certain web criteria sizes are met.*/
+/** the maximum width has been given, then after that then the @media query will
+also apply to h1 syntaxs due to phone and screen sizes.**/
+@media screen and (max-width: 768px){
+    #container{
+        width: 90%
+    }
+    h1{
+        font-size: 200%;
+    }
+}
